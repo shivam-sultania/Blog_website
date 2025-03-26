@@ -1,0 +1,88 @@
+#navigator{
+    padding:1.5rem 8rem;
+}
+
+.flex_cont{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mid_sec{
+    position: relative;
+    min-height: 80vh;
+}
+
+.main_body{
+    margin: 1.5rem 8rem;
+}
+
+a{
+    letter-spacing: 0.2rem;
+}
+
+li{
+    font-size: small;
+}
+
+button.Read_more{
+    text-decoration: none;
+    color: blue;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+button.Read_more:hover{
+    color: blueviolet;
+}
+
+p{
+    display: inline-block;
+}
+
+.home_form{
+    display: inline-block;
+}
+
+form.comp_btn{
+    position: sticky;
+    bottom: 1.5rem;
+    top: 36rem;
+    left: 100rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+button.comp_btn{
+    min-height: 3rem;
+    min-width: 3rem;
+    border-radius: 30%;
+    background-color: rgba(230, 230, 230, 0.647);
+    color: rgb(118, 212, 181);
+    font-size: 2rem;
+    font-weight: 700;
+    border-width: 0.2px;
+    border-color: rgba(169, 169, 169, 0.427);
+}
+
+footer{
+    margin-top: auto;
+    padding: 1rem 8rem;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* Compose page */
+
+input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    height: 8rem;
+}
+
